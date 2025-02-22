@@ -92,3 +92,4 @@ processed/
 .mypy_cache/
 
 AWSCLIV2.pkg
+models/
