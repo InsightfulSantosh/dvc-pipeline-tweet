@@ -92,7 +92,7 @@ processed/
 .mypy_cache/
 
 AWSCLIV2.pkg
-/models/
+models/
 feature_engg/
 
 
