@@ -47,8 +47,7 @@ coverage.xml
 *.mo
 *.pot
 
-# models
-/models/
+
 
 # Sphinx documentation
 docs/_build/
@@ -93,7 +92,6 @@ processed/
 
 AWSCLIV2.pkg
 models/
-feature_engg/
 
 
 
