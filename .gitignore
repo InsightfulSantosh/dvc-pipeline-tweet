@@ -47,7 +47,8 @@ coverage.xml
 *.mo
 *.pot
 
-
+# models
+models/
 
 # Sphinx documentation
 docs/_build/
