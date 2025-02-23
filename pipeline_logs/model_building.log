@@ -1,7 +1,0 @@
-2025-02-23 10:40:28,377 - 4.Model building - INFO - Process started to load the data
-2025-02-23 10:40:28,466 - 4.Model building - DEBUG - Train_df loaded from /Users/santoshkumar/Data_science/dvc-pipeline-tweet/data/processed/train_bow.csv
-2025-02-23 10:40:28,473 - 4.Model building - INFO - Data loaded successfully
-2025-02-23 10:40:28,474 - 4.Model building - DEBUG - X_train shape: (7261, 500)
-2025-02-23 10:40:28,474 - 4.Model building - INFO - Training model with Decision Tree Classifier
-2025-02-23 10:40:28,546 - 4.Model building - DEBUG - Model training completed successfully
-2025-02-23 10:40:28,547 - 4.Model building - INFO - Model saved at models/model.pickle

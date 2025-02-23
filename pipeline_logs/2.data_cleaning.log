@@ -1,23 +1,23 @@
-2025-02-23 11:08:27,487 - INFO - 🚀 Starting the data cleaning process.
-2025-02-23 11:08:27,487 - DEBUG - 🔍 Ensuring necessary directories exist.
-2025-02-23 11:08:27,487 - DEBUG - Created directory: /Users/santoshkumar/Data_science/dvc-pipeline-tweet/data/interim
-2025-02-23 11:08:27,487 - INFO - 📥 Loading training data from: data/raw/train/train.csv
-2025-02-23 11:08:27,487 - INFO - 📥 Loading testing data from: data/raw/test/test.csv
-2025-02-23 11:08:27,499 - INFO - ✅ Data successfully loaded.
-2025-02-23 11:08:27,499 - DEBUG - 🧼 Starting data normalization.
-2025-02-23 11:08:27,499 - DEBUG - Starting the data preprocessing pipeline.
-2025-02-23 11:08:27,557 - DEBUG - Data cleaning completed successfully.
-2025-02-23 11:08:27,565 - DEBUG - Removed short words (length < 3) successfully.
-2025-02-23 11:08:28,772 - DEBUG - Lemmatization completed successfully.
-2025-02-23 11:08:28,782 - DEBUG - Stopwords removed successfully.
-2025-02-23 11:08:28,783 - DEBUG - Text preprocessing completed successfully.
-2025-02-23 11:08:28,783 - DEBUG - Starting the data preprocessing pipeline.
-2025-02-23 11:08:28,807 - DEBUG - Data cleaning completed successfully.
-2025-02-23 11:08:28,811 - DEBUG - Removed short words (length < 3) successfully.
-2025-02-23 11:08:28,858 - DEBUG - Lemmatization completed successfully.
-2025-02-23 11:08:28,862 - DEBUG - Stopwords removed successfully.
-2025-02-23 11:08:28,862 - DEBUG - Text preprocessing completed successfully.
-2025-02-23 11:08:28,862 - INFO - ✅ Data normalization completed.
-2025-02-23 11:08:28,862 - INFO - 💾 Saving processed training data to: ./data/interim/train_processed.csv
-2025-02-23 11:08:28,868 - INFO - 💾 Saving processed testing data to: ./data/interim/test_processed.csv
-2025-02-23 11:08:28,870 - INFO - 🎉 Data cleaning process completed successfully!
+2025-02-23 11:12:28,863 - INFO - 🚀 Starting the data cleaning process.
+2025-02-23 11:12:28,863 - DEBUG - 🔍 Ensuring necessary directories exist.
+2025-02-23 11:12:28,863 - DEBUG - Created directory: /Users/santoshkumar/Data_science/dvc-pipeline-tweet/data/interim
+2025-02-23 11:12:28,863 - INFO - 📥 Loading training data from: data/raw/train/train.csv
+2025-02-23 11:12:28,864 - INFO - 📥 Loading testing data from: data/raw/test/test.csv
+2025-02-23 11:12:28,876 - INFO - ✅ Data successfully loaded.
+2025-02-23 11:12:28,876 - DEBUG - 🧼 Starting data normalization.
+2025-02-23 11:12:28,876 - DEBUG - Starting the data preprocessing pipeline.
+2025-02-23 11:12:28,936 - DEBUG - Data cleaning completed successfully.
+2025-02-23 11:12:28,944 - DEBUG - Removed short words (length < 3) successfully.
+2025-02-23 11:12:30,145 - DEBUG - Lemmatization completed successfully.
+2025-02-23 11:12:30,155 - DEBUG - Stopwords removed successfully.
+2025-02-23 11:12:30,155 - DEBUG - Text preprocessing completed successfully.
+2025-02-23 11:12:30,155 - DEBUG - Starting the data preprocessing pipeline.
+2025-02-23 11:12:30,180 - DEBUG - Data cleaning completed successfully.
+2025-02-23 11:12:30,183 - DEBUG - Removed short words (length < 3) successfully.
+2025-02-23 11:12:30,230 - DEBUG - Lemmatization completed successfully.
+2025-02-23 11:12:30,233 - DEBUG - Stopwords removed successfully.
+2025-02-23 11:12:30,233 - DEBUG - Text preprocessing completed successfully.
+2025-02-23 11:12:30,233 - INFO - ✅ Data normalization completed.
+2025-02-23 11:12:30,233 - INFO - 💾 Saving processed training data to: ./data/interim/train_processed.csv
+2025-02-23 11:12:30,239 - INFO - 💾 Saving processed testing data to: ./data/interim/test_processed.csv
+2025-02-23 11:12:30,242 - INFO - 🎉 Data cleaning process completed successfully!
