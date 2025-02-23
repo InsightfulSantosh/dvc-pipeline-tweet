@@ -137,6 +137,6 @@ def main():
     except Exception as e:
         logger.error("Error saving data: %s", e)
         return
-    
+
 if __name__ == "__main__":
     main()

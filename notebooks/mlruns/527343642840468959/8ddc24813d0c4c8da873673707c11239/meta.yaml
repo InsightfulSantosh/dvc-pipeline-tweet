@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/santoshkumar/Data_science/dvc-pipeline-tweet/notebooks/mlruns/527343642840468959/8ddc24813d0c4c8da873673707c11239/artifacts
+end_time: 1740283254709
+entry_point_name: ''
+experiment_id: '527343642840468959'
+lifecycle_stage: active
+run_id: 8ddc24813d0c4c8da873673707c11239
+run_name: DecisionTree_2025-02-23_09-30-51
+run_uuid: 8ddc24813d0c4c8da873673707c11239
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740283251062
+status: 3
+tags: []
+user_id: santoshkumar

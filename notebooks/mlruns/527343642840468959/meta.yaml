@@ -1,0 +1,6 @@
+artifact_location: file:///Users/santoshkumar/Data_science/dvc-pipeline-tweet/notebooks/mlruns/527343642840468959
+creation_time: 1740280348154
+experiment_id: '527343642840468959'
+last_update_time: 1740280348154
+lifecycle_stage: active
+name: tweet_emotion_classification
