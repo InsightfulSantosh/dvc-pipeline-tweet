@@ -5,13 +5,13 @@ import logging
 from sklearn.tree import DecisionTreeClassifier
 
 # Configure logger
-logger = logging.getLogger("4.Model building")
+logger = logging.getLogger("Model building")
 logger.setLevel(logging.DEBUG)
 
 if logger.hasHandlers():
     logger.handlers.clear()
 
-log_file_path = "pipeline_logs/model_building.log"
+log_file_path = "pipeline_logs/4.model_building.log"
 
 if os.path.exists(log_file_path):
     os.remove(log_file_path)
@@ -61,7 +61,7 @@ def train_model(X_train, y_train):
 def save_model(model, model_dir):
     try:
         os.makedirs(model_dir, exist_ok=True)
-        model_path = os.path.join(model_dir, 'model.pickle')
+        model_path = os.path.join(model_dir, 'model.pkl')
         with open(model_path, 'wb') as file:
             pickle.dump(model, file)
         

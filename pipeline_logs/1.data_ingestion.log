@@ -1,18 +1,18 @@
-2025-02-22 06:26:06,210 - INFO - Starting the ETL process.
-2025-02-22 06:26:06,210 - DEBUG - Directory created or already exists: data/raw
-2025-02-22 06:26:06,210 - DEBUG - Directory created or already exists: data/raw/train
-2025-02-22 06:26:06,210 - DEBUG - Directory created or already exists: data/raw/test
-2025-02-22 06:26:06,210 - DEBUG - Parameters retrieved from params.yaml
-2025-02-22 06:26:06,210 - DEBUG - Loaded params: {'data_ingestion': {'test_size': 0.3}, 'feature_engineering': {'max_features': 500}}
-2025-02-22 06:26:06,211 - DEBUG - Test size parameter: 0.3
-2025-02-22 06:26:06,211 - DEBUG - Loading data from URL: https://raw.githubusercontent.com/campusx-official/jupyter-masterclass/main/tweet_emotions.csv
-2025-02-22 06:26:07,118 - INFO - Data loaded successfully with 40000 rows and 3 columns.
-2025-02-22 06:26:07,118 - DEBUG - Processing the data (filtering, mapping, shuffling).
-2025-02-22 06:26:07,124 - INFO - Data processed successfully. 10374 rows remaining.
-2025-02-22 06:26:07,124 - DEBUG - Splitting data into train and test sets with test_size=0.3.
-2025-02-22 06:26:07,125 - INFO - Train dataset shape: (7261, 2)
-2025-02-22 06:26:07,125 - INFO - Test dataset shape: (3113, 2)
-2025-02-22 06:26:07,125 - DEBUG - Saving train data to: data/raw/train/train.csv
-2025-02-22 06:26:07,134 - DEBUG - Saving test data to: data/raw/test/test.csv
-2025-02-22 06:26:07,137 - INFO - Data saved successfully: data/raw/train/train.csv and data/raw/test/test.csv
-2025-02-22 06:26:07,137 - INFO - ETL process completed successfully.
+2025-02-23 11:08:23,589 - INFO - Starting the ETL process.
+2025-02-23 11:08:23,589 - DEBUG - Directory created or already exists: data/raw
+2025-02-23 11:08:23,589 - DEBUG - Directory created or already exists: data/raw/train
+2025-02-23 11:08:23,589 - DEBUG - Directory created or already exists: data/raw/test
+2025-02-23 11:08:23,590 - DEBUG - Parameters retrieved from params.yaml
+2025-02-23 11:08:23,590 - DEBUG - Loaded params: {'data_ingestion': {'test_size': 0.3}, 'feature_engineering': {'max_features': 500}}
+2025-02-23 11:08:23,590 - DEBUG - Test size parameter: 0.3
+2025-02-23 11:08:23,590 - DEBUG - Loading data from URL: https://raw.githubusercontent.com/campusx-official/jupyter-masterclass/main/tweet_emotions.csv
+2025-02-23 11:08:26,119 - INFO - Data loaded successfully with 40000 rows and 3 columns.
+2025-02-23 11:08:26,119 - DEBUG - Processing the data (filtering, mapping, shuffling).
+2025-02-23 11:08:26,122 - INFO - Data processed successfully. 10374 rows remaining.
+2025-02-23 11:08:26,122 - DEBUG - Splitting data into train and test sets with test_size=0.3.
+2025-02-23 11:08:26,123 - INFO - Train dataset shape: (7261, 2)
+2025-02-23 11:08:26,123 - INFO - Test dataset shape: (3113, 2)
+2025-02-23 11:08:26,123 - DEBUG - Saving train data to: data/raw/train/train.csv
+2025-02-23 11:08:26,136 - DEBUG - Saving test data to: data/raw/test/test.csv
+2025-02-23 11:08:26,158 - INFO - Data saved successfully: data/raw/train/train.csv and data/raw/test/test.csv
+2025-02-23 11:08:26,158 - INFO - ETL process completed successfully.

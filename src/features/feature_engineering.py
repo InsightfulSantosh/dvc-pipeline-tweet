@@ -6,7 +6,7 @@ import yaml
 from sklearn.feature_extraction.text import CountVectorizer
 
 # Set up logger
-logger = logging.getLogger("3.feature_engineering")
+logger = logging.getLogger("feature_engineering")
 logger.setLevel(logging.DEBUG)
 
 # Remove existing handlers to avoid duplicates
@@ -15,7 +15,7 @@ if logger.hasHandlers():
 
 # Define log file path
 os.makedirs("pipeline_logs", exist_ok=True)
-log_file_path = "pipeline_logs/feature_engineering.log"
+log_file_path = "pipeline_logs/3.feature_engineering.log"
 
 # Delete the log file if it exists
 if os.path.exists(log_file_path):
@@ -89,8 +89,10 @@ def bow(train: pd.DataFrame, test: pd.DataFrame, max_feature: int):
         test_df["label"] = y_test
 
         # Ensure the models directory exists
-        os.makedirs("models/feature_engg", exist_ok=True)
-        pickle.dump(vectorizer, open("models/feature_engg/vectorizer.pkl", "wb"))
+        os.makedirs("models", exist_ok=True)
+        with open("models/vectorizer.pkl", 'wb') as file:
+            pickle.dump(vectorizer, file)
+
         logger.debug("Vectorizer saved successfully to models/vectorizer.pkl")
         
         return train_df, test_df
